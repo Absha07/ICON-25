@@ -1,34 +1,55 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+// import './App.css';
+import './styles/styles.css'
+
+import Particle from './components/Particle'
+
+import Home from './pages/Home'
+
+import Mindscape from './pages//tech/Mindscape'
+import Mysticode from './pages/tech/Mysticode';
+import TechTrivia from './pages/tech/TechTrivia'
+import GreyScale from './pages/tech/GreyScale'
+import CyberSleuth from './pages/tech/CyberSleuth'
+
+import SnapSeek from './pages/nontech/SnapSeek'
+import FilmFrency from './pages/nontech/FilmFrency'
+import ApexConquest from './pages/nontech/ApexConquest'
+
+import Footer from './components/Footer'
+
+//helper component (temp pg layout)
+// import Update from './components/Update'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+   
+      <BrowserRouter>
+      <Particle />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          
+          {/* Technical Events */}
+          <Route path='/event/mindscapes-unfold' element={<Mindscape/>} />
+          <Route path='/event/mysticode' element={<Mysticode/>} />
+          <Route path='/event/tech-trivia' element={<TechTrivia/>} />
+          <Route path='/event/greyscale' element={<GreyScale/>} />
+          <Route path='/event/cybersleuth' element={<CyberSleuth/>} />
+
+
+          {/* Non-Technical Events */}
+          <Route path='/event/snap-seek' element={<SnapSeek/>} />
+          <Route path='/event/film-frency' element={<FilmFrency/>} />
+          <Route path='/event/apex-conquest' element={<ApexConquest/>} />
+
+          {/* Test Route - temp */}
+          {/* <Route path='/event/update' element={<Update/>} /> */}
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
   )
 }
 
