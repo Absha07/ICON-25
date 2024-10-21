@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+
+.shade {
+  /* background-color: #6e21ff; */
+  border-radius: 8px;
+  padding: 30px;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.shade {
+  color: #fff;
+  margin-bottom: 20px;
+}
+h1{
+  position: relative;
+  background-image: linear-gradient(to right, #613aeb, #9e00b7);
+  font-size: 2.5rem;
+}
+.input-group {
+  position: relative;
+  margin: 20px 0;
+}
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #fff;
+  padding: 0 5px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 10px;
+  background: transparent;
+  border: 1.2px solid rgb(174, 0, 255);
+  outline: none;
+  border-radius: 5px;
+}
+
+.input-group input:focus ~ label,
+.input-group input:valid ~ label,
+.input-group select:focus ~ label,
+.input-group select:valid ~ label {
+  top: -10px;
+  font-size: 12px;
+  /* background: #7d2ae8; */
+  background: linear-gradient(to right, transparent, rgb(174, 0, 255), transparent);
+  padding: 0 5px;
+}
+
+
+.input-group1 {
+  position: relative;
+  margin: 20px 0;
+  text-align: left; 
+}
+
+.input-group1 label {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 5px; 
+}
+
+.input-group1 select {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  border: 1.2px solid #fff;
+  border-radius: 5px;
+  padding: 0 10px;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.input-group1 select:hover {
+  background-color: #e0e0e0;
+  border-color: #d1d1d1;
+}
+
+.input-group1 select:focus {
+  background-color: #7d2ae8;
+  color: #fff;
+  border-color: #fff;
+}
+
+.input-group1 select option {
+  padding: 10px;
+}
+
+.input-group2 {
+  position: relative;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.input-group2 label {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+
+.upload-box {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border: 2px dashed #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  color: #000;
+}
+
+
+.upload-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+
+input[type="file"] {
+  display: none;
+}
+
+.upload-text {
+  font-size: 14px;
+  color: #6e21ff;
+  z-index: 1;
+}
+
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #7d2ae8;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  position: relative;
+  z-index:10
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+

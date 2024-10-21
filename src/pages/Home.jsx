@@ -5,7 +5,8 @@ import Logo from "../assets/imgs/logo.png";
 import "../assets/fonts/font.css";
 import "../assets/fonts/nusar.css";
 
-// import Button from '../components/Button'
+// 3
+import Button from '../components/Button'
 import CountDown from "../components/CountDown";
 
 import Events from "../components/Events";
@@ -45,7 +46,7 @@ function Home() {
               A National Level Technical Symposium
             </div>
           </div>
-          {/* <Button className='reg-btn' /> */}
+          <Button className='reg-btn' />
           <p style={{ fontSize: 34 }}>13th April'24</p>
         </div>
       </div>
@@ -54,7 +55,7 @@ function Home() {
       <h1 className="count-h">COUNTDOWN</h1>
       <CountDown />
 
-      {/* Tech Evnets */}
+      {/* Tech Events */}
       {META_EVENTS.map((data, key) => (
         <div key={key}>
           <h1 className="count-h">{data.title}</h1>
@@ -63,7 +64,7 @@ function Home() {
           <div className="grid-conatiner" style={{ position: "relative" }}>
             {data.events.map((event, index) => (
               <Events
-                style={{ position: "realative" }}
+                style={{ position: "relative" }}
                 events={event}
                 key={index}
               />
