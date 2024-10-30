@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './styless/styles.css';
+import '../styles/styles.css';
 
 function App() {
   const [formData, setFormData] = useState({
@@ -37,8 +37,7 @@ function App() {
   };
 
   return (
-    <div className="wrap">
-      <div className="shade">
+      <div className="wrap">
         <h1>Registration Form</h1>
         <form onSubmit={handleSubmit}>
           {/* Name */}
@@ -151,7 +150,6 @@ function App() {
           </button>
         </form>
       </div>
-    </div>
   );
 }
 

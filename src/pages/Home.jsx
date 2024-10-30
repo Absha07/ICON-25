@@ -6,14 +6,14 @@ import "../assets/fonts/font.css";
 import "../assets/fonts/nusar.css";
 
 // 3
-import Button from '../components/Button'
+import Button from "../components/Button";
 import CountDown from "../components/CountDown";
 
 import Events from "../components/Events";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
 
-import { META_EVENTS, SPONSERS } from "../utils/constants";
+import { META_EVENTS, SPONSERS, contentData } from "../utils/constants";
 
 function Home() {
   useEffect(() => {
@@ -22,7 +22,6 @@ function Home() {
 
   return (
     <div className="home">
-
       {/* hero-section */}
       <div className="hero" style={{ zIndex: 180, position: "relative" }}>
         <div className="container logo">
@@ -46,7 +45,7 @@ function Home() {
               A National Level Technical Symposium
             </div>
           </div>
-          <Button className='reg-btn' />
+          <Button className="reg-btn" />
           <p style={{ fontSize: 34 }}>13th April'24</p>
         </div>
       </div>
@@ -54,6 +53,14 @@ function Home() {
       {/* CountDown */}
       <h1 className="count-h">COUNTDOWN</h1>
       <CountDown />
+
+      {/*About*/}
+      {Object.entries(contentData).map(([key, section]) => (
+        <div className="content-container" key={key}>
+          <h1 class="count-h">{section.title}</h1>
+          <p class="count-p">{section.text}</p>
+        </div>
+      ))}
 
       {/* Tech Events */}
       {META_EVENTS.map((data, key) => (
