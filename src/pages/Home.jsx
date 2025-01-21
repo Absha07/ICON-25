@@ -24,14 +24,6 @@ function Home() {
 
   return (
     <div className="home">
-      {/* <div className="iconlogo">
-        <img src={IconLogo}
-              width={250}
-        />
-        <img className="sitlogo" src={SitLogo}
-              width={250}
-        />
-      </div> */}
       {/* hero-section */}
       <div className="hero" style={{ zIndex: 180, position: "relative" }}>
         <div className="container logo">
@@ -99,7 +91,7 @@ function Home() {
       ))}
 
       {/* Event Details */}
-      <p className="count-p" style={{ fontSize: 38, paddingTop: 8 }}>
+      <p className="count-p" >
         Explore Our Awaited Offerings !
       </p>
       <Services />

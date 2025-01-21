@@ -111,12 +111,12 @@ export const CONTACT_INFO = [
 
 export const contentData = {
   symposium: {
-    title: "About the Symposium",
+    title: "About Symposium",
     text: "Welcome to the Annual Tech Innovations Symposium 2025! This symposium brings together leaders in technology, academia, and industry to discuss the latest trends in tech innovations. Our goal is to foster collaboration and inspire new ideas that will shape the future."
   },
   college: {
-    title: "About the Department",
+    title: "About Department",
     img: "/imgs/grp.jpeg",
-    text: "Our college is committed to providing a comprehensive education that prepares students to meet the demands of the modern world. With a focus on innovation and excellence, we strive to foster an environment where students can thrive and grow."
+    text: "The department was started in 1999 and has been offering B.Tech.-Information Technology since 1999, M.Tech.-Information Technology since 2010 and Ph.D since 2009. It has highly qualified, experienced and dedicated faculty members specialized in various areas like Artificial Intelligence, Deep Learning, Machine Learning, IoT, IIoT, Data Science, Cyber Security, Cloud Computing, Mobile Computing & Networks, Computer Networks, Ad hoc Networks and Software Engineering."
   }
 };

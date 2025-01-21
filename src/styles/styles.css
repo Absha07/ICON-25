@@ -7,17 +7,13 @@
 
 body {
   color: #ffffff;
+  overflow-x: hidden;
   background-color: #000;
   font-family: "Space Grotesk";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  flex-direction: column;
   -webkit-tap-highlight-color: transparent;
-  margin-top: 5%;
 }
 
+/* Navbar Styling */
 /* Navbar Styling */
 .navbar {
   position: fixed;
@@ -25,7 +21,7 @@ body {
   left: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end; /* Adjusted to align the menu toggle to the right */
   align-items: center;
   background-color: #5a535998;
   color: #fff;
@@ -33,24 +29,6 @@ body {
   z-index: 1000;
   font-family: 'Space Grotesk', sans-serif;
 }
-
-.navbar-logo {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* Space between the logos */
-}
-
-.navbar-logo .logo {
-  height: 50px; 
-  width: auto; 
-  object-fit: contain; 
-}
-/* 
-.navbar-logo a {
-  color: #fff;
-  font-size: 24px;
-  text-decoration: none;
-} */
 
 .menu-toggle {
   cursor: pointer;
@@ -83,7 +61,7 @@ body {
 }
 
 .sidebar.open {
-  right: 0; 
+  right: 0;
 }
 
 .sidebar .close-btn {
@@ -131,7 +109,23 @@ body {
   font-size: 16px;
 }
 
+/* Logos at the bottom of the sidebar */
+.sidebar-logos {
+  margin-top: auto; /* Push logos to the bottom */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Space between the logos */
+}
+
+.sidebar-logos .logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
 /* Responsive Design */
+
 /* @media (min-width: 768px) {
   .menu-toggle {
     display: none;
@@ -172,171 +166,6 @@ body {
   /* Adjust colors as desired */
 }
 
-.wrap {
-  border-radius: 8px;
-  padding: 30px;
-  font-size: 18px;
-  text-align: center;
-  margin-bottom: 20px;
-  width: 100%;
-  max-width: 600px;
-}
-
-.wrap {
-  color: #fff;
-  margin-bottom: 20px;
-}
-h1 {
-  position: relative;
-  font-size: 2.5rem;
-}
-
-.input-group {
-  position: relative;
-  margin: 20px 0;
-}
-
-.input-group label {
-  position: absolute;
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-  font-size: 16px;
-  color: #fff;
-  padding: 0 5px;
-  pointer-events: none;
-  transition: 0.3s;
-}
-
-.input-group input,
-.input-group select {
-  width: 100%;
-  height: 40px;
-  font-size: 16px;
-  color: #fff;
-  padding: 0 10px;
-  background: transparent;
-  border: 1.2px solid rgb(174, 0, 255);
-  outline: none;
-  border-radius: 5px;
-}
-
-.input-group input:focus ~ label,
-.input-group input:valid ~ label,
-.input-group select:focus ~ label,
-.input-group select:valid ~ label {
-  top: -10px;
-  font-size: 12px;
-  background: linear-gradient(to right, transparent, rgb(174, 0, 255), transparent);
-  padding: 0 5px;
-}
-
-.input-group1 {
-  position: relative;
-  margin: 20px 0;
-  text-align: left;
-}
-
-.input-group1 label {
-  display: block;
-  font-size: 16px;
-  color: #fff;
-  margin-bottom: 5px;
-}
-
-.input-group1 select {
-  width: 100%;
-  height: 40px;
-  font-size: 16px;
-  color: #000;
-  background-color: #fff;
-  border: 1.2px solid #fff;
-  border-radius: 5px;
-  padding: 0 10px;
-  outline: none;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-}
-
-.input-group1 select:hover {
-  background-color: #e0e0e0;
-  border-color: #d1d1d1;
-}
-
-.input-group1 select:focus {
-  background-color: #7d2ae8;
-  color: #fff;
-  border-color: #fff;
-}
-
-.input-group1 select option {
-  padding: 10px;
-}
-
-.input-group2 {
-  position: relative;
-  text-align: left;
-  margin: 20px 0;
-}
-
-.input-group2 label {
-  display: block;
-  font-size: 16px;
-  color: #fff;
-  margin-bottom: 5px;
-}
-
-.upload-box {
-  width: 150px;
-  height: 150px;
-  background-color: #fff;
-  border: 2px dashed #fff;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  color: #000;
-}
-
-.upload-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.7;
-}
-
-input[type="file"] {
-  display: none;
-}
-
-.upload-text {
-  font-size: 14px;
-  color: #6e21ff;
-  z-index: 1;
-}
-
-.submit-btn {
-  padding: 10px 20px;
-  background-color: #7d2ae8;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 5px;
-  transition: 0.3s ease;
-  position: relative;
-  z-index: 10;
-}
-
-.submit-btn:hover {
-  background-color: #45a049;
-}
 
 .home .content-container {
   position: relative;
@@ -345,6 +174,7 @@ input[type="file"] {
 
 .content-container {
   display: flex;
+  /* padding: 50px; */
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
   flex-direction: column; /* Keeps the title, image, and text in column order */
@@ -396,34 +226,22 @@ input[type="file"] {
   color: #000;
   margin: 6px 0;
 }
-.hero p {
+.hero .logo p {
   font-size: 30px;
   margin: 18px auto;
 }
 
-.hero .logo {
-  position: relative;
-  bottom: 100px;
-}
-
-.sitlogo {
-  position: relative;
-  bottom: 25px;
-}
-
 .count-h {
-  
   position: relative;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   font-family: "Space Grotesk";
   letter-spacing: 4px;
   font-size: 55px;
+  width: -moz-max-content;
   width: max-content;
   padding: 35px 0;
-  text-shadow: 0px 0px 6px rgba(246, 241, 241, 0.714), 0px 0px 13px linear-gradient(to right, #613aeb, #9e00b7);
-
-  
+  text-shadow: 0px 0px 6px rgba(246, 241, 241, 0.714), 0px 0px 13px linear-gradient(to right, #613aeb, #9e00b7);  
   filter: drop-shadow(-3px 0 5px #6e21ff);
 }
 
@@ -477,7 +295,7 @@ input[type="file"] {
   /* color: #52d0e6; */
   color: #000;
   text-align: center;
-  margin: 12px 0;
+  margin: 12px ;
 }
 
 .equalizer {
@@ -824,7 +642,7 @@ input[type="file"] {
   text-underline-offset: 2px;
 }
 
-@media screen and (min-width: 200px) and (max-width: 650px) {
+ @media screen and (min-width: 200px) and (max-width: 650px) {
   .hero .logo-img img {
     width: 220px !important;
   }
@@ -845,6 +663,7 @@ input[type="file"] {
   }
   .count-p {
     font-size: 20px;
+    margin: 10px;
   }
   .count {
     width: 100%;
@@ -916,7 +735,6 @@ input[type="file"] {
     height: 2px !important;
     width: 65%;
     margin: auto;
-    /* Replace var('blue') with blue */
     margin-bottom: 2px !important;
   }
   .conatct .d-flex .help a {
@@ -979,4 +797,4 @@ input[type="file"] {
   .events .d-flex ul {
     margin-left: 0px;
   }
-}/*# sourceMappingURL=styles.css.map */
+} 
