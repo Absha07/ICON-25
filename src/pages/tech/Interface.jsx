@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 // import Button from '../../components/Button';
 
-function GreyScale() {
+function Interface() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -22,7 +22,7 @@ function GreyScale() {
     return (
         <>
             <div className='events'>
-                <div className="count-h">GREYSCALE</div>
+                <div className="count-h">Interface</div>
                 <div className="count-p">UI/UX Design</div>
 
                 <div className="d-flex">
@@ -82,4 +82,4 @@ function GreyScale() {
     )
 }
 
-export default GreyScale
+export default Interface

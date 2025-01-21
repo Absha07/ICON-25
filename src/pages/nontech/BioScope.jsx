@@ -35,7 +35,7 @@ function BioScope() {
 
         <div className="d-flex">
           <div className="img">
-            <img src="/imgs/nontech/event1.webp" width={450} alt="" />
+            <img src="/imgs/nontech/event4.webp" width={450} alt="" />
             <div
               className="btn-ly"
               style={{
@@ -50,14 +50,14 @@ function BioScope() {
               className="event-phone"
               style={{ textAlign: "center", marginTop: 34, fontSize: 21 }}
             >
-              +91 7200642537
+              +91 9150240636
             </h5>
-            {/* <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Sharan Shri Ram. V</h5> */}
-            <h6
+            <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Naveeth</h5>
+            {/* <h6
               style={{ textAlign: "center", marginTop: 12, color: "#ffffff59" }}
             >
               (Registration Closed)
-            </h6>
+            </h6> */}
           </div>
           <div className="info">
             <h2>Description</h2>
@@ -108,11 +108,11 @@ function BioScope() {
 
             <ul className="students">
               <h2>Coordinators</h2>
-              {/* <p>Kesavapriya P</p>
-                            <p>Sharan Shri Ram V</p>
-                            <p>Tholkappiyan E</p>
-                            <p>Bala Krishnan P</p>
-                            <p>Tamizhselvi B</p> */}
+              <p>Naveeth</p>
+              <p>Thamim</p>
+              <p>Faizal</p>
+              <p>Niyaz</p>
+              <p>Aathika</p>
             </ul>
           </div>
         </div>

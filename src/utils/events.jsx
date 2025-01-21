@@ -1,7 +1,7 @@
 const EVENTS_DATA = [
   {
-    name: "MINDSCAPES UNFOLD",
-    title: "Paper Presentation",
+    name: "PaperPresS UNFOLD",
+    title: "PaperPresentation",
     imgURL: "/imgs/tech/event1.webp",
     studName: "Shyam Kumar A",
     phone: "+91 9840440839",

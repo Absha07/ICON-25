@@ -41,10 +41,10 @@
 //           <li className="dropdown">
 //             Technical Events
 //             <ul className="dropdown-menu">
-//               <li><Link to="/event/mindscapes-unfold" onClick={toggleSidebar}>Mindscape</Link></li>
+//               <li><Link to="/event/PaperPress-unfold" onClick={toggleSidebar}>PaperPres</Link></li>
 //               <li><Link to="/event/CodeRoulette" onClick={toggleSidebar}>CodeRoulette</Link></li>
 //               <li><Link to="/event/tech-trivia" onClick={toggleSidebar}>Tech Trivia</Link></li>
-//               <li><Link to="/event/greyscale" onClick={toggleSidebar}>GreyScale</Link></li>
+//               <li><Link to="/event/Interface" onClick={toggleSidebar}>Interface</Link></li>
 //               <li><Link to="/event/TechQuest" onClick={toggleSidebar}>Cyber Sleuth</Link></li>
 //             </ul>
 //           </li>
@@ -52,8 +52,8 @@
 //             Non-Technical Events
 //             <ul className="dropdown-menu">
 //               <li><Link to="/event/snap-seek" onClick={toggleSidebar}>Snap Seek</Link></li>
-//               <li><Link to="/event/film-frency" onClick={toggleSidebar}>Film Frenzy</Link></li>
-//               <li><Link to="/event/apex-conquest" onClick={toggleSidebar}>Apex Conquest</Link></li>
+//               <li><Link to="/event/BoxCricket" onClick={toggleSidebar}>Film Frenzy</Link></li>
+//               <li><Link to="/event/apex-conquest" onClick={toggleSidebar}>ESports</Link></li>
 //             </ul>
 //           </li>
 //         </ul>
@@ -101,10 +101,10 @@ function NavBar() {
           <li className="dropdown">
             Technical Events
             <ul className="dropdown-menu">
-              <li><Link to="/event/mindscapes-unfold" onClick={toggleSidebar}>Mindscape</Link></li>
+              <li><Link to="/event/PaperPress-unfold" onClick={toggleSidebar}>PaperPres</Link></li>
               <li><Link to="/event/CodeRoulette" onClick={toggleSidebar}>CodeRoulette</Link></li>
               <li><Link to="/event/tech-trivia" onClick={toggleSidebar}>Tech Trivia</Link></li>
-              <li><Link to="/event/greyscale" onClick={toggleSidebar}>GreyScale</Link></li>
+              <li><Link to="/event/Interface" onClick={toggleSidebar}>Interface</Link></li>
               <li><Link to="/event/TechQuest" onClick={toggleSidebar}>Cyber Sleuth</Link></li>
             </ul>
           </li>
@@ -112,8 +112,8 @@ function NavBar() {
             Non-Technical Events
             <ul className="dropdown-menu">
               <li><Link to="/event/snap-seek" onClick={toggleSidebar}>Snap Seek</Link></li>
-              <li><Link to="/event/film-frency" onClick={toggleSidebar}>Film Frenzy</Link></li>
-              <li><Link to="/event/apex-conquest" onClick={toggleSidebar}>Apex Conquest</Link></li>
+              <li><Link to="/event/BoxCricket" onClick={toggleSidebar}>Film Frenzy</Link></li>
+              <li><Link to="/event/apex-conquest" onClick={toggleSidebar}>ESports</Link></li>
             </ul>
           </li>
         </ul>

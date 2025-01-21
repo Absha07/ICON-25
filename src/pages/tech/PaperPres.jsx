@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 // import Button from "../components/Button";
 
-function Mindscape() {
+function PaperPres() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -28,8 +28,8 @@ function Mindscape() {
   return (
     <>
       <div className="events">
-        <div className="count-h">MINDSCAPES UNFOLD</div>
-        <div className="count-p">Paper Presentation</div>
+        <div className="count-h">PaperPresS UNFOLD</div>
+        <div className="count-p">PaperPresentation</div>
 
         <div className="d-flex">
           <div className="img">
@@ -113,4 +113,4 @@ function Mindscape() {
   );
 }
 
-export default Mindscape;
+export default PaperPres;

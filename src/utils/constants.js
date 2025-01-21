@@ -4,11 +4,11 @@ export const META_EVENTS = [
     desc: "Unlock your potential and ignite your curiosity",
     events: [
       {
-        name: "MindScapes Unfold",
+        name: "PaperPress Unfold",
         imgURL: "/imgs/tech/event1.webp",
         time: "10:30 AM",
         type: "tech",
-        path: "/event/mindscapes-unfold",
+        path: "/event/PaperPress-unfold",
       },
       {
         name: "CodeRoulette",
@@ -18,11 +18,11 @@ export const META_EVENTS = [
         path: "/event/CodeRoulette",
       },
       {
-        name: "GrayScale",
+        name: "Interface",
         imgURL: "/imgs/tech/event4.webp",
         time: "10:30AM",
         type: "tech",
-        path: "/event/greyscale",
+        path: "/event/Interface",
       },
       {
         name: "TechQuest",
@@ -45,14 +45,14 @@ export const META_EVENTS = [
           path: "/event/snap-seek",
         },
         {
-          name: "Film Frency",
+          name: "BoxCricket",
           imgURL: "/imgs/nontech/event2.webp",
           time: "10:30AM",
           type: "non-tech",
-          path: "/event/film-frency",
+          path: "/event/BoxCricket",
         },
         {
-          name: "Apex Conquest",
+          name: "ESports",
           imgURL: "/imgs/nontech/event3.webp",
           time: "10:30AM",
           type: "non-tech",
@@ -80,8 +80,8 @@ export const CONTACT_INFO = [
     title: "Faculty Coordinators",
     role: "staff",
     data: [
-      { name: "Mr . Wajid Khan" },
-      { name: "Mrs . Sonya" },
+      { name: "Dr. Mohammed Wajid Khan" },
+      { name: "Dr . A . Sonya" },
     ],
   },
   {
@@ -97,7 +97,7 @@ export const CONTACT_INFO = [
   {
     title: "HOD, IT",
     role: "hod",
-    data: [{ name: "Dr. Prakash "}],
+    data: [{ name: "Dr . N . Prakash "}],
   },
   {
     title: "Help Desk",

@@ -30,7 +30,7 @@ function CodeRoulette() {
     <>
       <div className="events">
         <div className="count-h">CodeRoulette</div>
-        <div className="count-p">Debugging</div>
+        <div className="count-p">Coding</div>
 
         <div className="d-flex">
           <div className="img">
@@ -49,14 +49,14 @@ function CodeRoulette() {
               className="event-phone"
               style={{ textAlign: "center", marginTop: 28, fontSize: 21 }}
             >
-              +91 9500437641
+              +91 9514517428
             </h5>
-            {/* <h5  style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Kishoth S</h5> */}
-            <h6
+            <h5  style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Shariga Thesnim M</h5>
+            {/* <h6
               style={{ textAlign: "center", marginTop: 12, color: "#ffffff59" }}
             >
               (Registration Closed)
-            </h6>
+            </h6> */}
           </div>
           <div className="info">
             <h2>Description</h2>
@@ -90,10 +90,8 @@ function CodeRoulette() {
 
             <ul className="students">
               <h2>Coordinators</h2>
-              {/* <p>Aravinth S</p>
-                            <p>Kishoth S</p>
-                            <p>Siva Ranjini M</p>
-                            <p>Rakesh T</p> */}
+              <p>Shariga Thesnim M</p>
+              <p>Shameem Fathima M J</p>
             </ul>
           </div>
         </div>

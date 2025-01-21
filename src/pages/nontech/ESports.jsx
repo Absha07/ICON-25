@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 // import Button from '../../components/Button';
 
-function ApexConquest() {
+function ESports() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -19,8 +19,8 @@ function ApexConquest() {
   return (
     <>
       <div className="events">
-        <div className="count-h">Apex Conquest</div>
-        <div className="count-p">BGMI/ FREE FIRE</div>
+        <div className="count-h">ESports</div>
+        <div className="count-p">BGMI</div>
 
         <div className="d-flex">
           <div className="img">
@@ -41,12 +41,12 @@ function ApexConquest() {
             >
               +91 6380381466
             </h5>
-            {/* <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Jana Muthuraj M</h5> */}
-            <h6
+            <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Mahadeer</h5>
+            {/* <h6
               style={{ textAlign: "center", marginTop: 12, color: "#ffffff59" }}
             >
               (Registration Closed)
-            </h6>
+            </h6> */}
           </div>
           <div className="info">
             <h2>Description</h2>
@@ -71,11 +71,11 @@ function ApexConquest() {
 
             <ul className="students">
               <h2>Coordinators</h2>
-              {/* <p>Akilan M</p>
-                            <p>Sakthivinash B</p>
-                            <p>Jana Muthuraj M</p>
-                            <p>Karthikeyan K</p>
-                            <p>Prabu V</p> */}
+              <p>Mahadeer</p>
+              <p>Shahul</p>
+              <p>Rilwan</p>
+              <p>Shanjay Priyan</p>
+              <p>Vigneshwaran</p>
             </ul>
           </div>
         </div>
@@ -87,4 +87,4 @@ function ApexConquest() {
   );
 }
 
-export default ApexConquest;
+export default ESports;

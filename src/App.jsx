@@ -9,14 +9,14 @@ import Particle from './components/Particle'
 import Home from './pages/Home'
 import Registration from './pages/Registration'
 import Navbar from './components/Navbar'
-import Mindscape from './pages/tech/CodeRoulette'
+import PaperPres from './pages/tech/PaperPres'
 import CodeRoulette from './pages/tech/CodeRoulette';
-import GreyScale from './pages/tech/GreyScale'
+import Interface from './pages/tech/Interface'
 import TechQuest from './pages/tech/TechQuest'
 
 import GameVerse from './pages/nontech/GameVerse'
-import FilmFrency from './pages/nontech/FilmFrency'
-import ApexConquest from './pages/nontech/ApexConquest'
+import BoxCricket from './pages/nontech/BoxCricket'
+import ESports from './pages/nontech/ESports'
 import BioScope from './pages/nontech/BioScope'
 
 import Footer from './components/Footer'
@@ -36,15 +36,15 @@ function App() {
         <Route path="/registration" element={<Registration />} /> 
 
         {/* Technical Events */}
-        <Route path='/event/mindscapes-unfold' element={<Mindscape/>} />
+        <Route path='/event/PaperPress-unfold' element={<PaperPres/>} />
         <Route path='/event/CodeRoulette' element={<CodeRoulette/>} />
-        <Route path='/event/greyscale' element={<GreyScale/>} />
+        <Route path='/event/Interface' element={<Interface/>} />
         <Route path='/event/TechQuest' element={<TechQuest/>} />
 
         {/* Non-Technical Events */}
         <Route path='/event/snap-seek' element={<GameVerse/>} />
-        <Route path='/event/film-frency' element={<FilmFrency/>} />
-        <Route path='/event/apex-conquest' element={<ApexConquest/>} />
+        <Route path='/event/BoxCricket' element={<BoxCricket/>} />
+        <Route path='/event/apex-conquest' element={<ESports/>} />
         <Route path='/event/BioScope' element={<BioScope/>} />
 
         {/* Test Route - temp */}

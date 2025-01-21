@@ -55,14 +55,14 @@ function GameVerse() {
               className="event-phone"
               style={{ textAlign: "center", marginTop: 34, fontSize: 21 }}
             >
-              +91 7200642537
+              +91 8610257209
             </h5>
-            {/* <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Sharan Shri Ram. V</h5> */}
-            <h6
+            <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Janani</h5>
+            {/* <h6
               style={{ textAlign: "center", marginTop: 12, color: "#ffffff59" }}
             >
               (Registration Closed)
-            </h6>
+            </h6> */}
           </div>
           <div className="info">
             <h2>Description</h2>
@@ -109,11 +109,9 @@ function GameVerse() {
 
             <ul className="students">
               <h2>Coordinators</h2>
-              {/* <p>Kesavapriya P</p>
-                            <p>Sharan Shri Ram V</p>
-                            <p>Tholkappiyan E</p>
-                            <p>Bala Krishnan P</p>
-                            <p>Tamizhselvi B</p> */}
+              <p>Janani V</p>
+              <p>Rahimunisha Begam M S</p>
+              <p>Nivetha</p>
             </ul>
           </div>
         </div>

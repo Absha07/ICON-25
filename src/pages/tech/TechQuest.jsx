@@ -56,16 +56,16 @@ function TechQuest() {
               className="event-phone"
               style={{ textAlign: "center", marginTop: 34, fontSize: 21 }}
             >
-              +91
+              +91 8870866844
             </h5>
             <h5
               style={{ textAlign: "center", marginTop: 12, fontSize: 24 }}
-            ></h5>
-            <h6
+            >Ayesha Afrin</h5>
+            {/* <h6
               style={{ textAlign: "center", marginTop: 12, color: "#ffffff59" }}
             >
               (Registration Closed)
-            </h6>
+            </h6> */}
           </div>
           <div className="info">
             <h2>Description</h2>
@@ -195,11 +195,10 @@ function TechQuest() {
             </div>
             <ul className="students">
               <h2>Coordinators</h2>
-              {/* <p>Rithish R</p>
-              <p>Sneha sree S</p>
-              <p>Sachin R</p>
-              <p>Moneeshwar M</p>
-              <p>Vigesh E</p> */}
+              <p>Ayesha Afrin </p>
+              <p>Ruwaida Fatima J</p>
+              <p>Afrin</p>
+              <p>Nivetha</p>
             </ul>
           </div>
         </div>
