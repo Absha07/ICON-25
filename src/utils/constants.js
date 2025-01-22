@@ -80,8 +80,8 @@ export const CONTACT_INFO = [
     title: "Faculty Coordinators",
     role: "staff",
     data: [
-      { name: "Dr. Mohammed Wajid Khan" },
-      { name: "Dr . A . Sonya" },
+      { name: "Dr. Nabeena Ameen" },
+      { name: "Dr. Nabeena Ameen" },
     ],
   },
   {
@@ -89,9 +89,9 @@ export const CONTACT_INFO = [
     role: "student",
     data: [
       { name: "Mohamed Basha S" },
-      { name: "Aafreen" },
+      { name: "Aafreen Marzuqa  A " },
       { name: "Mohamed Faizal S H "},
-      { name: "Rakshana" },
+      { name: "Rakshana T" },
     ],
   },
   {
@@ -103,8 +103,8 @@ export const CONTACT_INFO = [
     title: "Help Desk",
     role: "help",
     data: [
-      { name: "", phone: "7530003231" },
-      { name: "", phone: "8838493397" },
+      { name: "Thamim M", phone: "9384466146" },
+      { name: "Mohamed Basha", phone: "9363396122" },
     ],
   },
 ];
@@ -112,7 +112,7 @@ export const CONTACT_INFO = [
 export const contentData = {
   symposium: {
     title: "About Symposium",
-    text: "Welcome to the Annual Tech Innovations Symposium 2025! This symposium brings together leaders in technology, academia, and industry to discuss the latest trends in tech innovations. Our goal is to foster collaboration and inspire new ideas that will shape the future."
+    text: "ICON, a National-level symposium, is meticulously organized by the professional society "Society of Information Technologists (SIT)," as a platform to elevate the technical skills of students. This symposium, hosted by the department, serves as a dynamic arena for knowledge exchange and skill enhancement, fostering a vibrant community of Information Technology enthusiasts.Join us at ICON to engage with cutting-edge insights, network with industry experts, and empower your journey in the ever-evolving field of technology."
   },
   college: {
     title: "About Department",
