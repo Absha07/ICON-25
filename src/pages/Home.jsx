@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 
-import IconLogo from "../assets/imgs/iconlogo.jpeg";
+
 import Logo from "../assets/imgs/logo.jpeg";
-import SitLogo from "../assets/imgs/SITlogo.png";
+import icon from "../assets/imgs/icon.png"
 
 import "../assets/fonts/font.css";
 import "../assets/fonts/nusar.css";
@@ -36,7 +36,11 @@ function Home() {
           </div>
 
           <div className="logo-txt glow" style={{ fontFamily: "Netron" }}>
-            ICON'25
+          <img
+              width={400}
+              src={icon}
+              alt="Petrona - A National Level Technical Symposium"
+            />
           </div>
           <div className="glitch-wrapper">
             <div
@@ -68,7 +72,7 @@ function Home() {
               style={{ width: "100%", maxWidth: "800px", margin: "16px 0" }}
             />
           )}
-          <p class="count-p">{section.text}</p>
+          <p class="count-pp">{section.text}</p>
         </div>
       ))}
 

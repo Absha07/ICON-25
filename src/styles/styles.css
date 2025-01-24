@@ -7,6 +7,7 @@
 
 body {
   color: #ffffff;
+  padding-top: 60px;
   overflow-x: hidden;
   background-color: #000;
   font-family: "Space Grotesk";
@@ -14,14 +15,13 @@ body {
 }
 
 /* Navbar Styling */
-/* Navbar Styling */
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   display: flex;
-  justify-content: flex-end; /* Adjusted to align the menu toggle to the right */
+  justify-content: space-between; 
   align-items: center;
   background-color: #5a535998;
   color: #fff;
@@ -30,11 +30,35 @@ body {
   font-family: 'Space Grotesk', sans-serif;
 }
 
+.navbar-left,
+.navbar-center,
+.navbar-right{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.navbar-center {
+  flex: 1; 
+  justify-content: center;
+}
+
+.navbar-right {
+  gap: 15px; 
+}
+
+.logos{
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  margin: 0 10px;
+}
+
 .menu-toggle {
   cursor: pointer;
   display: flex;
   flex-direction: column;
   gap: 5px;
+  margin-left: 15px;
 }
 
 .menu-toggle .bar {
@@ -48,7 +72,7 @@ body {
 .sidebar {
   position: fixed;
   top: 0;
-  right: -250px; /* Initially hidden off-screen */
+  left: -250px; 
   height: 100%;
   width: 250px;
   background-color: #222;
@@ -61,7 +85,7 @@ body {
 }
 
 .sidebar.open {
-  right: 0;
+  left: 0;
 }
 
 .sidebar .close-btn {
@@ -111,11 +135,11 @@ body {
 
 /* Logos at the bottom of the sidebar */
 .sidebar-logos {
-  margin-top: auto; /* Push logos to the bottom */
+  margin-top: auto; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px; /* Space between the logos */
+  gap: 10px; 
 }
 
 .sidebar-logos .logo {
@@ -126,15 +150,17 @@ body {
 
 /* Responsive Design */
 
-/* @media (min-width: 768px) {
-  .menu-toggle {
+@media (max-width: 768px) {
+  .navbar-left,
+  .navbar-center,
+  .navbar-right {
     display: none;
   }
 
-  .sidebar {
-    display: none;
+  .menu-toggle {
+    margin-left: auto;
   }
-} */
+}
 
 
 .btn {
@@ -297,7 +323,15 @@ body {
   text-align: center;
   margin: 12px ;
 }
-
+.count-pp {
+  font-family: "Space Grotesk";
+  position: relative;
+  font-size: 34px;
+  /* color: #52d0e6; */
+  color: #000;
+  text-align: justify;
+  margin: 12px ;
+}
 .equalizer {
   position: fixed;
   bottom: -10px;
@@ -662,6 +696,10 @@ body {
     font-size: 29px;
   }
   .count-p {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .count-pp {
     font-size: 20px;
     margin: 10px;
   }
