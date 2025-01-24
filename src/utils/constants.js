@@ -112,7 +112,7 @@ export const CONTACT_INFO = [
 export const contentData = {
   symposium: {
     title: "About Symposium",
-    text: "ICON, a National-level symposium, is meticulously organized by the professional society "Society of Information Technologists (SIT)," as a platform to elevate the technical skills of students. This symposium, hosted by the department, serves as a dynamic arena for knowledge exchange and skill enhancement, fostering a vibrant community of Information Technology enthusiasts.Join us at ICON to engage with cutting-edge insights, network with industry experts, and empower your journey in the ever-evolving field of technology."
+    text: "ICON, a National-level symposium, is meticulously organized by the professional society 'Society of Information Technologists (SIT),' as a platform to elevate the technical skills of students. This symposium, hosted by the department, serves as a dynamic arena for knowledge exchange and skill enhancement, fostering a vibrant community of Information Technology enthusiasts.Join us at ICON to engage with cutting-edge insights, network with industry experts, and empower your journey in the ever-evolving field of technology."
   },
   college: {
     title: "About Department",
