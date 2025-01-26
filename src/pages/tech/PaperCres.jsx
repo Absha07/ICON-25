@@ -28,7 +28,7 @@ function PaperCres() {
     <>
       <div className="events">
         <div className="count-h">PaperCres </div>
-        <div className="count-p">PaperCresentation</div>
+        <div className="count-p">PaperPresentation</div>
 
         <div className="d-flex">
           <div className="img">
