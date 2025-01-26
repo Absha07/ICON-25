@@ -9,7 +9,7 @@ import Particle from './components/Particle'
 import Home from './pages/Home'
 import Registration from './pages/Registration'
 import Navbar from './components/Navbar'
-import PaperPres from './pages/tech/PaperPres'
+import PaperCres from './pages/tech/PaperCres'
 import CodeRoulette from './pages/tech/CodeRoulette';
 import Interface from './pages/tech/Interface'
 import TechQuest from './pages/tech/TechQuest'
@@ -36,15 +36,15 @@ function App() {
         <Route path="/registration" element={<Registration />} /> 
 
         {/* Technical Events */}
-        <Route path='/event/PaperPress-unfold' element={<PaperPres/>} />
+        <Route path='/event/PaperCres' element={<PaperCres/>} />
         <Route path='/event/CodeRoulette' element={<CodeRoulette/>} />
         <Route path='/event/Interface' element={<Interface/>} />
         <Route path='/event/TechQuest' element={<TechQuest/>} />
 
         {/* Non-Technical Events */}
-        <Route path='/event/snap-seek' element={<GameVerse/>} />
+        <Route path='/event/GameVerse' element={<GameVerse/>} />
         <Route path='/event/BoxCricket' element={<BoxCricket/>} />
-        <Route path='/event/apex-conquest' element={<ESports/>} />
+        <Route path='/event/ESports' element={<ESports/>} />
         <Route path='/event/BioScope' element={<BioScope/>} />
 
         {/* Test Route - temp */}

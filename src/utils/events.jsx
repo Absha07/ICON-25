@@ -1,6 +1,6 @@
 const EVENTS_DATA = [
   {
-    name: "PaperPresS UNFOLD",
+    name: "PaperCres",
     title: "PaperPresentation",
     imgURL: "/imgs/tech/event1.webp",
     studName: "Shyam Kumar A",

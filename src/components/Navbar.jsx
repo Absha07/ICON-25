@@ -41,7 +41,7 @@
 //           <li className="dropdown">
 //             Technical Events
 //             <ul className="dropdown-menu">
-//               <li><Link to="/event/PaperPress-unfold" onClick={toggleSidebar}>PaperPres</Link></li>
+//               <li><Link to="/event/PaperCres " onClick={toggleSidebar}>PaperCres</Link></li>
 //               <li><Link to="/event/CodeRoulette" onClick={toggleSidebar}>CodeRoulette</Link></li>
 //               <li><Link to="/event/tech-trivia" onClick={toggleSidebar}>Tech Trivia</Link></li>
 //               <li><Link to="/event/Interface" onClick={toggleSidebar}>Interface</Link></li>
@@ -53,7 +53,7 @@
 //             <ul className="dropdown-menu">
 //               <li><Link to="/event/snap-seek" onClick={toggleSidebar}>Snap Seek</Link></li>
 //               <li><Link to="/event/BoxCricket" onClick={toggleSidebar}>Film Frenzy</Link></li>
-//               <li><Link to="/event/apex-conquest" onClick={toggleSidebar}>ESports</Link></li>
+//               <li><Link to="/event/ESports" onClick={toggleSidebar}>ESports</Link></li>
 //             </ul>
 //           </li>
 //         </ul>
@@ -99,7 +99,7 @@
 //           <li className="dropdown">
 //             Technical Events
 //             <ul className="dropdown-menu">
-//               <li><Link to="/event/PaperPress-unfold" onClick={toggleSidebar}>PaperPres</Link></li>
+//               <li><Link to="/event/PaperCres " onClick={toggleSidebar}>PaperCres</Link></li>
 //               <li><Link to="/event/CodeRoulette" onClick={toggleSidebar}>CodeRoulette</Link></li>
 //               <li><Link to="/event/tech-trivia" onClick={toggleSidebar}>Tech Trivia</Link></li>
 //               <li><Link to="/event/Interface" onClick={toggleSidebar}>Interface</Link></li>
@@ -111,7 +111,7 @@
 //             <ul className="dropdown-menu">
 //               <li><Link to="/event/snap-seek" onClick={toggleSidebar}>Snap Seek</Link></li>
 //               <li><Link to="/event/BoxCricket" onClick={toggleSidebar}>Film Frenzy</Link></li>
-//               <li><Link to="/event/apex-conquest" onClick={toggleSidebar}>ESports</Link></li>
+//               <li><Link to="/event/ESports" onClick={toggleSidebar}>ESports</Link></li>
 //             </ul>
 //           </li>
 //         </ul>
@@ -156,10 +156,10 @@ function NavBar() {
           <img src={twofive} alt="Right Logo" className="logos" />
         </div>
         <div className="menu-toggle" onClick={toggleSidebar}>
-            <span className="bar"></span>
-            <span className="bar"></span>
-            <span className="bar"></span>
-          </div>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
       </nav>
 
       {/* Sidebar */}
@@ -182,18 +182,13 @@ function NavBar() {
             Technical Events
             <ul className="dropdown-menu">
               <li>
-                <Link to="/event/PaperPress-unfold" onClick={toggleSidebar}>
-                  PaperPres
+                <Link to="/event/PaperCres" onClick={toggleSidebar}>
+                  PaperCres
                 </Link>
               </li>
               <li>
                 <Link to="/event/CodeRoulette" onClick={toggleSidebar}>
                   CodeRoulette
-                </Link>
-              </li>
-              <li>
-                <Link to="/event/tech-trivia" onClick={toggleSidebar}>
-                  Tech Trivia
                 </Link>
               </li>
               <li>
@@ -203,7 +198,7 @@ function NavBar() {
               </li>
               <li>
                 <Link to="/event/TechQuest" onClick={toggleSidebar}>
-                  Cyber Sleuth
+                  TechQuest
                 </Link>
               </li>
             </ul>
@@ -212,18 +207,23 @@ function NavBar() {
             Non-Technical Events
             <ul className="dropdown-menu">
               <li>
-                <Link to="/event/snap-seek" onClick={toggleSidebar}>
-                  Snap Seek
+                <Link to="/event/GameVerse" onClick={toggleSidebar}>
+                  GameVerse
                 </Link>
               </li>
               <li>
                 <Link to="/event/BoxCricket" onClick={toggleSidebar}>
-                  Film Frenzy
+                  BoxCricket
                 </Link>
               </li>
               <li>
-                <Link to="/event/apex-conquest" onClick={toggleSidebar}>
+                <Link to="/event/ESports" onClick={toggleSidebar}>
                   ESports
+                </Link>
+              </li>
+              <li>
+                <Link to="/event/BioScope" onClick={toggleSidebar}>
+                  BioScope
                 </Link>
               </li>
             </ul>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import Button from "../../components/Button";
+import Button from "../../components/Button";
 
 function TechQuest() {
   useEffect(() => {
@@ -58,9 +58,9 @@ function TechQuest() {
             >
               +91 8870866844
             </h5>
-            <h5
-              style={{ textAlign: "center", marginTop: 12, fontSize: 24 }}
-            >Ayesha Afrin</h5>
+            <h5 style={{ textAlign: "center", marginTop: 12, fontSize: 24 }}>
+              Ayesha Afrin
+            </h5>
             {/* <h6
               style={{ textAlign: "center", marginTop: 12, color: "#ffffff59" }}
             >
@@ -202,9 +202,9 @@ function TechQuest() {
             </ul>
           </div>
         </div>
-        {/* <div style={{margin: 'auto', textAlign: 'center'}}>
-                    <Button></Button>
-                </div> */}
+        <div style={{ margin: "auto", textAlign: "center" }}>
+          <Button></Button>
+        </div>
       </div>
     </>
   );

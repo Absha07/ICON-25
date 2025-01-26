@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-// import Button from '../../components/Button';
+import Button from "../../components/Button";
 
 function CodeRoulette() {
   useEffect(() => {
@@ -51,7 +51,9 @@ function CodeRoulette() {
             >
               +91 9514517428
             </h5>
-            <h5  style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Shariga Thesnim M</h5>
+            <h5 style={{ textAlign: "center", marginTop: 12, fontSize: 24 }}>
+              Shariga Thesnim M
+            </h5>
             {/* <h6
               style={{ textAlign: "center", marginTop: 12, color: "#ffffff59" }}
             >
@@ -95,9 +97,9 @@ function CodeRoulette() {
             </ul>
           </div>
         </div>
-        {/* <div style={{margin: 'auto', textAlign: 'center'}}>
-                    <Button></Button>
-                </div> */}
+        <div style={{ margin: "auto", textAlign: "center" }}>
+          <Button></Button>
+        </div>
       </div>
     </>
   );

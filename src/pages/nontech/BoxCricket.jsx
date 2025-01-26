@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-// import Button from '../../components/Button';
+import Button from "../../components/Button";
 
 function BoxCricket() {
   useEffect(() => {
@@ -68,9 +68,9 @@ function BoxCricket() {
             </ul>
           </div>
         </div>
-        {/* <div style={{margin: 'auto', textAlign: 'center'}}>
-                    <Button></Button>
-                </div> */}
+        <div style={{ margin: "auto", textAlign: "center" }}>
+          <Button></Button>
+        </div>
       </div>
     </>
   );

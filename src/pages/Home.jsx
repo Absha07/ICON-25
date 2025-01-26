@@ -27,13 +27,13 @@ function Home() {
       {/* hero-section */}
       <div className="hero" style={{ zIndex: 180, position: "relative" }}>
         <div className="container logo">
-          <div className="logo-img">
+          {/* <div className="logo-img">
             <img
               width={320}
               src={Logo}
               alt="Petrona - A National Level Technical Symposium"
             />
-          </div>
+          </div> */}
 
           <div className="logo-txt glow" style={{ fontFamily: "Netron" }}>
           <img

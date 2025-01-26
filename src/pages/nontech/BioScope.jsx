@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-// import Button from '../../components/Button';
+import Button from "../../components/Button";
 
 function BioScope() {
   useEffect(() => {
@@ -52,7 +52,9 @@ function BioScope() {
             >
               +91 9150240636
             </h5>
-            <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Naveeth</h5>
+            <h5 style={{ textAlign: "center", marginTop: 12, fontSize: 24 }}>
+              Naveeth
+            </h5>
             {/* <h6
               style={{ textAlign: "center", marginTop: 12, color: "#ffffff59" }}
             >
@@ -116,9 +118,9 @@ function BioScope() {
             </ul>
           </div>
         </div>
-        {/* <div style={{margin: 'auto', textAlign: 'center'}}>
-                    <Button></Button>
-                </div> */}
+        <div style={{ margin: "auto", textAlign: "center" }}>
+          <Button></Button>
+        </div>
       </div>
     </>
   );

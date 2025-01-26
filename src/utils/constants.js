@@ -4,11 +4,11 @@ export const META_EVENTS = [
     desc: "Unlock your potential and ignite your curiosity",
     events: [
       {
-        name: "PaperPress Unfold",
+        name: "PaperCres  ",
         imgURL: "/imgs/tech/event1.webp",
         time: "10:30 AM",
         type: "tech",
-        path: "/event/PaperPress-unfold",
+        path: "/event/PaperCres ",
       },
       {
         name: "CodeRoulette",
@@ -42,7 +42,7 @@ export const META_EVENTS = [
           imgURL: "/imgs/nontech/event1.webp",
           time: "10:30 AM",
           type: "non-tech",
-          path: "/event/snap-seek",
+          path: "/event/GameVerse",
         },
         {
           name: "BoxCricket",
@@ -56,7 +56,7 @@ export const META_EVENTS = [
           imgURL: "/imgs/nontech/event3.webp",
           time: "10:30AM",
           type: "non-tech",
-          path: "/event/apex-conquest",
+          path: "/event/ESports",
         },
         {
           name: "BioScope",

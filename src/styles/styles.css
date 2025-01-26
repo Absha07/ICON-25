@@ -332,6 +332,18 @@ body {
   text-align: justify;
   margin: 12px ;
 }
+
+.count-img{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.Games{
+  width: 150px;
+  border-radius: 8px;
+}
+
 .equalizer {
   position: fixed;
   bottom: -10px;

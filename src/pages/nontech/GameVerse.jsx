@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-// import Button from '../../components/Button';
+import Button from "../../components/Button";
 
 function GameVerse() {
   useEffect(() => {
@@ -57,7 +57,9 @@ function GameVerse() {
             >
               +91 8610257209
             </h5>
-            <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Janani</h5>
+            <h5 style={{ textAlign: "center", marginTop: 12, fontSize: 24 }}>
+              Janani
+            </h5>
             {/* <h6
               style={{ textAlign: "center", marginTop: 12, color: "#ffffff59" }}
             >
@@ -115,9 +117,9 @@ function GameVerse() {
             </ul>
           </div>
         </div>
-        {/* <div style={{margin: 'auto', textAlign: 'center'}}>
-                    <Button></Button>
-                </div> */}
+        <div style={{ margin: "auto", textAlign: "center" }}>
+          <Button></Button>
+        </div>
       </div>
     </>
   );

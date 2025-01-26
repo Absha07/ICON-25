@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-// import Button from '../../components/Button';
+import Button from '../../components/Button';
 
 function ESports() {
   useEffect(() => {
@@ -20,7 +20,32 @@ function ESports() {
     <>
       <div className="events">
         <div className="count-h">ESports</div>
-        <div className="count-p">BGMI</div>
+        <div className="count-img">
+          <img
+            src="/imgs/games/Bgmi.jpeg"
+            width={40}
+            alt=""
+            className="Games"
+          />
+          <img
+            src="/imgs/games/FreeFire.jpeg"
+            width={40}
+            alt=""
+            className="Games"
+          />
+          <img
+            src="/imgs/games/Fifa.jpeg"
+            width={40}
+            alt=""
+            className="Games"
+          />
+          <img
+            src="/imgs/games/Valorant.jpeg"
+            width={40}
+            alt=""
+            className="Games"
+          />
+        </div>
 
         <div className="d-flex">
           <div className="img">
@@ -41,7 +66,9 @@ function ESports() {
             >
               +91 6380381466
             </h5>
-            <h5 style={{ textAlign: 'center', marginTop: 12, fontSize: 24 }}>Mahadeer</h5>
+            <h5 style={{ textAlign: "center", marginTop: 12, fontSize: 24 }}>
+              Mahadeer
+            </h5>
             {/* <h6
               style={{ textAlign: "center", marginTop: 12, color: "#ffffff59" }}
             >
@@ -79,9 +106,9 @@ function ESports() {
             </ul>
           </div>
         </div>
-        {/* <div style={{margin: 'auto', textAlign: 'center'}}>
-                    <Button></Button>
-                </div> */}
+        <div style={{ margin: "auto", textAlign: "center" }}>
+          <Button></Button>
+        </div>
       </div>
     </>
   );

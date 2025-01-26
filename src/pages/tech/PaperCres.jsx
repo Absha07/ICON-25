@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
-// import Button from "../components/Button";
+import Button from "../../components/Button";
 
-function PaperPres() {
+function PaperCres() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
 
   const topics = [
     "AI in daily life",
@@ -28,8 +27,8 @@ function PaperPres() {
   return (
     <>
       <div className="events">
-        <div className="count-h">PaperPresS UNFOLD</div>
-        <div className="count-p">PaperPresentation</div>
+        <div className="count-h">PaperCres </div>
+        <div className="count-p">PaperCresentation</div>
 
         <div className="d-flex">
           <div className="img">
@@ -43,16 +42,21 @@ function PaperPres() {
               }}
             >
               {/* <Button /> */}
-              
             </div>
-            <h5 className='event-phone' style={{ textAlign: "center", marginTop: 28, fontSize: 21 }}>
+            <h5
+              className="event-phone"
+              style={{ textAlign: "center", marginTop: 28, fontSize: 21 }}
+            >
               +91 9840440839
             </h5>
             <h5 style={{ textAlign: "center", marginTop: 12, fontSize: 24 }}>
               {/* Shyam Kumar A */}
             </h5>
 
-            <a target="_blank" href="https://drive.google.com/drive/folders/1B_bE0cwAyEb6qlJ1MPMa0NpQ14tzGc7b">
+            <a
+              target="_blank"
+              href="https://drive.google.com/drive/folders/1B_bE0cwAyEb6qlJ1MPMa0NpQ14tzGc7b"
+            >
               <h6
                 style={{
                   marginTop: 28,
@@ -65,7 +69,7 @@ function PaperPres() {
                 }}
               >
                 <img
-                  style={{ borderRadius: 0,width: '38px !importnat'}}
+                  style={{ borderRadius: 0, width: "38px !importnat" }}
                   width={38}
                   src="/imgs/drive.png"
                   alt="google-drive"
@@ -75,9 +79,11 @@ function PaperPres() {
               </h6>
             </a>
 
-            <h6 style={{ textAlign: "center", marginTop: 12,color: '#ffffff59'}}>(Registration Closed)</h6>
-
-
+            <h6
+              style={{ textAlign: "center", marginTop: 12, color: "#ffffff59" }}
+            >
+              (Registration Closed)
+            </h6>
           </div>
           <div className="info">
             <h2>Topics</h2>
@@ -105,12 +111,12 @@ function PaperPres() {
             </ul>
           </div>
         </div>
-        {/* <div style={{margin: 'auto', textAlign: 'center'}}>
-                    <Button></Button>
-                </div> */}
+        <div style={{ margin: "auto", textAlign: "center" }}>
+          <Button></Button>
+        </div>
       </div>
     </>
   );
 }
 
-export default PaperPres;
+export default PaperCres;
