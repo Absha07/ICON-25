@@ -62,9 +62,9 @@ function ESports() {
             </h5>
             <h5
               className="event-phone"
-              style={{ textAlign: "center", marginTop: 14, fontSize: 21 }}
+              style={{ lign: "center", marginTop: 14, fontSize: 21 }}
             >
-              +91 6380381466
+              +91 8668196208
             </h5>
             <h5 style={{ textAlign: "center", marginTop: 12, fontSize: 24 }}>
               Mahadeer
