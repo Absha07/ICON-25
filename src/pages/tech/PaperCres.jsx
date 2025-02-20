@@ -76,7 +76,7 @@ function PaperCres() {
              Muhammad Owais
             </h5>
 
-            <a
+            {/* <a
               target="_blank"
               href="https://drive.google.com/drive/folders/1B_bE0cwAyEb6qlJ1MPMa0NpQ14tzGc7b"
             >
@@ -106,7 +106,7 @@ function PaperCres() {
               style={{ textAlign: "center", marginTop: 12, color: "#ffffff59" }}
             >
               (Registration Closed)
-            </h6>
+            </h6> */}
             <div className="regbtn" style={{  textAlign: "center" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "10px", alignItems: "center" }}> 
             <a>₹ 100 Per Person</a>
