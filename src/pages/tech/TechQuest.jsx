@@ -25,10 +25,13 @@ function TechQuest() {
     "3.Debugging",
     "4.File Founder",
     "5.Q/A (Networking,Cryptography,DBMS,Software Testing)",
-    
   ];
 
-
+  const round2 = [
+    "It will be a debugging of given code.",
+    "3 questions with errors are given. You have to rectify the errors.",
+    "30 minutes given for this round.",
+  ];
 
   return (
     <>
