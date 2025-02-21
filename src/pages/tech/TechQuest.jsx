@@ -20,11 +20,11 @@ function TechQuest() {
   ];
 
   const round1 = [
-    "1.QR Scanning",
-    "2.Encryption/Decryption",
-    "3.Debugging",
-    "4.File Founder",
-    "5.Q/A (Networking,Cryptography,DBMS,Software Testing)",
+    "QR Scanning",
+    "Encryption/Decryption",
+    "Debugging",
+    "File Founder",
+    "Q/A (Networking,Cryptography,DBMS,Software Testing)",
   ];
 
   const round2 = [
@@ -68,7 +68,7 @@ function TechQuest() {
             <div className="regbtn" style={{  textAlign: "center" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "10px", alignItems: "center" }}> 
              <a>₹ 100 Per Person</a>
-             <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1LVU2fE9r9KKveZohC5UKLLFyxpOm1yyxIqopombEvmGksA/viewform?usp=header">
+             <a href="https://forms.gle/evwMLMmYVxwyyxSR8">
              <Button > </Button>
              </a>
              </div>
