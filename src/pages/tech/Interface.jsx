@@ -8,7 +8,7 @@ function Interface() {
 
   const rules = [
     "Complete the challenge within 2 Hours.",
-    "Each Team Must Consist of 2 Members",
+    "Each Team Must Consist of minimum 1 and maximum of 2 members.",
     "The Requirements of the design will be said on spot.",
     "Bring your laptop with preferred design software. (Figma, Sketch, etc)",
     "Topic Will Be Said On Spot"
