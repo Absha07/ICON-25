@@ -20,19 +20,15 @@ function TechQuest() {
   ];
 
   const round1 = [
-    "Coding Challenge",
-    "Debugging",
-    "Crypo-graphic word puzzles",
-    "Data Exploration",
-    "HTML, CSS",
-    "Networking",
+    "1.QR Scanning",
+    "2.Encryption/Decryption",
+    "3.Debugging",
+    "4.File Founder",
+    "5.Q/A (Networking,Cryptography,DBMS,Software Testing)",
+    
   ];
 
-  const round2 = [
-    "It will be a debugging of given code.",
-    "3 questions with errors are given. You have to rectify the errors.",
-    "30 minutes given for this round.",
-  ];
+
 
   return (
     <>
